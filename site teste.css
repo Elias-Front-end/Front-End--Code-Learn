@@ -1,0 +1,51 @@
+ *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background: #E01947;
+        background: -webkit-linear-gradient(to left, #E01947 0%, #CF9E65 100%);
+        background: -moz-linear-gradient(to left, #E01947 0%, #CF9E65 100%);
+        background: linear-gradient(to left, #E01947 0%, #CF9E65 100%);        
+        padding: 5px 0;
+        padding-top: 1vh;
+        text-align: center;
+        height: 5vh;
+      }
+      .menu {
+        display: flex;
+        justify-content: space-around;
+      }
+      .menu a {
+        text-decoration: none;
+        color: white;
+        display: inline-block;
+        margin: 0 10px;
+      }
+      .bg {
+        background-image: url(./Default_create_a_very_realistic_4k_slice_of_cake_image_to_use_0.jpg);
+        width: 100%;
+        height: 90vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+      }
+      .bg img {
+        position: absolute;
+        width: 300px;
+        bottom: 30px;
+        left: 85%;
+        transform: translate(-25%, 0);
+      }
+      footer {
+        background: #E01947;
+        background: -webkit-linear-gradient(to left, #E01947 0%, #CF9E65 100%);
+        background: -moz-linear-gradient(to left, #E01947 0%, #CF9E65 100%);
+        background: linear-gradient(to left, #E01947 0%, #CF9E65 100%);        
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        height: 5vh;
+        color: white;
+      }
